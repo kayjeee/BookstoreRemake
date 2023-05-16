@@ -7,24 +7,53 @@ body {
   padding: 0 30px 0 30px;
 }
 
-header {
+.custom-header {
   height: 70px;
 }
 
-header nav {
+.custom-header .header-content {
   border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header nav h2 {
+.custom-header h2 {
   width: 30%;
   font-size: 18px;
   margin-left: 20px;
 }
 
-header nav ul {
+.custom-header ul {
+  margin-left: 428px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.custom-header ul li {
+  list-style-type: none;
+  cursor: pointer;
+  border-right: 1px black solid;
+  padding-right: 5px;
+}
+
+.custom-header ul li:last-child {
+  border-right: none;
+}
+
+.custom-header ul li:first-child {
+  color: blue;
+}
+
+nav h2 {
+  width: 30%;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+nav ul {
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -32,25 +61,25 @@ header nav ul {
   gap: 10px;
 }
 
-header nav ul li {
+nav ul li {
   list-style-type: none;
   cursor: pointer;
   border-right: 1px black solid;
   padding-right: 5px;
 }
 
-header nav ul li:last-child {
+nav ul li:last-child {
   border-right: none;
 }
 
-header nav ul li:first-child {
+nav ul li:first-child {
   color: blue;
 }
-
 .time {
   display: flex;
   justify-content: end;
   margin: 5px;
+  margin-top: 27px;
 }
 
 .home {
@@ -100,7 +129,7 @@ header nav ul li:first-child {
   font-size: 36px;
 }
 
-.mainDiv {
+.container {
   height: 80%;
   display: flex;
   flex-direction: column;
@@ -109,7 +138,7 @@ header nav ul li:first-child {
   margin: 5px;
 }
 
-.mainDiv h1 {
+.section-title {
   margin-bottom: 5px;
 }
 
@@ -124,9 +153,7 @@ header nav ul li:first-child {
   border-radius: 30px;
 }
 
-.mainDiv h2 {
-  margin-bottom: 5px;
-}
+
 
 .tableContainer {
   border: 1px solid rgb(7, 106, 103);
@@ -185,14 +212,18 @@ header nav ul li:first-child {
   justify-content: end;
 }
 
-footer {
+.F-container {
   width: 100%;
   border: 2px solid black;
   margin-top: 10px;
   padding: 5px 10px;
 }
 
-.footer-title {
+.F-title-container {
+  margin: 10px;
+}
+
+.F-title {
   font-size: 18px;
   margin-left: 20px;
 }

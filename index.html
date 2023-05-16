@@ -10,20 +10,21 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <h2>Awesome Books</h2>
-      <ul>
-        <li class="nav-home">List</li>
-        <li class="nav-books">Add new</li>
-        <li class="nav-contact">Contacts</li>
-      </ul>
-    </nav>
-    <p id="time" class="time"></p>
-  </header>
-  <section id="time" class="time"></section>
-
-  <main class="mainDiv">
+  <div class="custom-header">
+    <h2>Awesome Books</h2>
+    <div class="header-content">
+      <nav>
+        <ul>
+          <li class="nav-home">List</li>
+          <li class="nav-books">Add new</li>
+          <li class="nav-contact">Contacts</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+  <div id="time" class="time"></div>
+    <main class="mainDiv">
     <section class="home">
       <h1 class="title">All awesome books</h1>
       <div class="tableContainer">
@@ -56,11 +57,16 @@
       </ul>
     </section>
   </main>
+  
+  
 
-  <footer>
-    <h2 class="footer-title">Copyright</h2>
+  
+  <footer class="F-container">
+    <div class="F-title-container">
+      <h2 class="F-title">Copyright</h2>
+    </div>
   </footer>
-
+  
   <script src="index.js"></script>
   
 </body>
