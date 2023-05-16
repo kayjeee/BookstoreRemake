@@ -25,7 +25,7 @@ body {
 }
 
 .custom-header ul {
-  margin-right: 20px;
+  margin-left: 428px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,14 +47,13 @@ body {
   color: blue;
 }
 
-
-header nav h2 {
+nav h2 {
   width: 30%;
   font-size: 18px;
   margin-left: 20px;
 }
 
-header nav ul {
+nav ul {
   margin-right: 20px;
   display: flex;
   align-items: center;
@@ -62,25 +61,25 @@ header nav ul {
   gap: 10px;
 }
 
-header nav ul li {
+nav ul li {
   list-style-type: none;
   cursor: pointer;
   border-right: 1px black solid;
   padding-right: 5px;
 }
 
-header nav ul li:last-child {
+nav ul li:last-child {
   border-right: none;
 }
 
-header nav ul li:first-child {
+nav ul li:first-child {
   color: blue;
 }
-
 .time {
   display: flex;
   justify-content: end;
   margin: 5px;
+  margin-top: 27px;
 }
 
 .home {
@@ -213,14 +212,18 @@ header nav ul li:first-child {
   justify-content: end;
 }
 
-footer {
+.F-container {
   width: 100%;
   border: 2px solid black;
   margin-top: 10px;
   padding: 5px 10px;
 }
 
-.footer-title {
+.F-title-container {
+  margin: 10px;
+}
+
+.F-title {
   font-size: 18px;
   margin-left: 20px;
 }
